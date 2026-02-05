@@ -1,12 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import { RestaurantMenu } from "./pages/RestaurantMenu";
+
+import MenuPage from "./pages/MenuPage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<RestaurantMenu />} />
+        <Route path="/" element={<MenuPage />} />
       </Routes>
     </BrowserRouter>
   );
