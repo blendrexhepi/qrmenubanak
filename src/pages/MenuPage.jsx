@@ -114,7 +114,7 @@ const MenuPage = () => {
 
   return (
       <LayoutRenderer
-      layout={"modern"}   // e.g. "modern"
+      layout={"minimal"}   // e.g. "modern"
       menu={menuData}
       restaurant={menuData}
       activeCategory={activeCategory}
